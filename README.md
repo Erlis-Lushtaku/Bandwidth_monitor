@@ -14,6 +14,6 @@ Lenda: Siguria e Internetit
 
 Profesor: Mërgim Hoti
 
-Student: Erlis Lushtaku
+Studentët: Altina Pllana, Erlis Lushtaku, Liresa Ferizaj, Sara Haliti
 
 Prishtinë, janar 2022
