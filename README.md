@@ -16,6 +16,8 @@ Profesorët: PhD.c Mërgim H. HOTI, Prof. Dr. Blerim REXHA
 
 Studentët: Altina Pllana, Erlis Lushtaku, Liresa Ferizaj, Sara Haliti
 
+Grupi i projektit: 7 && 10
+
 Prishtinë, janar 2022
 
 
