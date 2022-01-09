@@ -1,6 +1,6 @@
 import time
-import numpy
 import matplotlib.pyplot as plt
+import threading
 import subprocess
 
 from Tracker import Tracker
@@ -13,7 +13,10 @@ speeds_recv = []
 speeds_sent = []
 times = []
 
-def main():
+def table():
+    subprocess.call("Bandwidth_monitor_table.py", shell=True)
+
+def graph():
     """ Executes the program.
     """
     tracker = Tracker()
@@ -55,6 +58,7 @@ def add_data(down_speed, up_speed):
 
 if __name__ == '__main__':
     try:
-       main() 
+        threading.Thread(target=graph).start()
+        threading.Thread(target=table).start()
     except:
         print("An exception occurred")
